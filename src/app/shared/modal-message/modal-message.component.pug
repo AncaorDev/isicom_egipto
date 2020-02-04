@@ -1,0 +1,9 @@
+button.icon-close(mat-icon-button, (click)="closeModal()")
+    custom-icon.white(icono="close")
+
+.content-comunicado(*ngIf="info")
+    #player(*ngIf="info.tipoRecurso == 'video'")
+    img(*ngIf="info.tipoRecurso == 'banner'", [src]="info.recurso.url")
+.content-bottom
+    a(*ngIf="info.link", [href]="info.link", target="_blank")
+        button.btn.btn-cerrar(type="button") Ver más

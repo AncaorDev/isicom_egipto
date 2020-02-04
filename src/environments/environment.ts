@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  url_back : 'https://api-dot-pe-pacasmayo-intranet-gcp.appspot.com',
+  version_back : 'v1'
 };
 
 /*

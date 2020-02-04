@@ -1,0 +1,17 @@
+.red {
+	.cls-1 {
+		fill: var(--pinkish-red) !important;
+	}
+}
+
+.white {
+	.cls-1 {
+		fill: #ffffff !important;
+	}
+}
+
+.disabled {
+	.cls-1 {
+		opacity: .5;
+	}
+}
