@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WEB ISICOM PRUEBA</title>
+    <style>
+        html {
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 100%;
+        }
+        body {
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            height: 100%;
+        }
+        .NavbarBG {
+            display: flex;
+            width: 100%;
+            height: 70px;
+            box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.04);
+            background-color: #ffffff;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+        .Username {
+            width: 81px;
+            height: 20px;
+            font-family: Poppins;
+            font-size: 14px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.43;
+            letter-spacing: normal;
+            text-align: left;
+            color: #4d4f5c;
+        }
+        .cerrar-sesion {
+            width: 67px;
+            height: 17px;
+            font-family: SourceSansPro;
+            font-size: 12px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.67;
+            letter-spacing: normal;
+            text-align: left;
+            color: #2ec484;
+        }
+        .Icon-awesome-user-circle {
+            width: 38px;
+            height: 38px;
+            /* background-color: #373e44; */
+        }
+        .user {
+            display: flex;
+        }
+        .user > .user_detail > span{
+            display: block;
+        }
+        .bg {
+            width: 66px;
+            height: calc(100% - 70px);
+            background-color: #2f343a;
+        }
+        iframe {
+            width: calc(100% - 70px);
+            height: calc(100% - 70px);
+        }
+        .item {
+            width: 100%;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            cursor: pointer;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <div class="NavbarBG">
+        <img src="./logo.png">
+        <div class="user">
+            <div class="user_detail">
+                <span>Pedro Pérez</span>
+                <span>Cerrar Sesión</span>
+            </div>
+            <img class="Icon-awesome-user-circle" src="./solid_user_circle.svg">
+        </div>
+    </div>
+    <div class="bg">
+        <a href="index.html">
+            <div class="item">
+                A
+            </div>
+        </a>
+        <a href="frame.html">
+            <div class="item">
+                B
+            </div>
+        </a>
+    </div>
+    <p>
+        contenido general
+    </p>
+</body>
+</html>
