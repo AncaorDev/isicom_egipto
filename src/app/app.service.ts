@@ -12,7 +12,7 @@ export class AppService {
 	constructor(private http:HttpClient,
 				private global:GlobalService) { }
 
-	getApplications(): Observable<any>{
-		return this.http.get(`${environment.url_back}/api/${environment.version_back}/applications`)
+	validateKeyGenToken(): Observable<any>{
+		return this.http.get(`${environment.url_back}/`)
 	}
 }

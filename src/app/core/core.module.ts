@@ -6,8 +6,9 @@ import { FooterComponent } from './components/footer/footer.component';
 import { MaterialModule } from '../material/material.module';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
+import { UnauthorizadedComponent } from './components/unauthorizaded/unauthorizaded.component';
 @NgModule({
-	declarations: [HeaderComponent, FooterComponent],
+	declarations: [HeaderComponent, FooterComponent, UnauthorizadedComponent],
 	exports: [
 		HeaderComponent,
 		FooterComponent

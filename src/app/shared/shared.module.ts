@@ -6,12 +6,14 @@ import { PortalModule } from '@angular/cdk/portal';
 import { ModalMessageComponent } from './modal-message/modal-message.component';
 import { MatButtonModule } from '@angular/material';
 import { SafePipe } from '../app.pipe';
+import { LoaderComponent } from './components/loader/loader.component';
 
 @NgModule({
     declarations: [
         CustomIconComponent,
         ModalMessageComponent,
-        SafePipe
+        SafePipe,
+        LoaderComponent
     ],
     imports: [
         CommonModule,
@@ -20,7 +22,7 @@ import { SafePipe } from '../app.pipe';
         MatButtonModule
     ],
     entryComponents : [ModalMessageComponent],
-    exports: [CustomIconComponent, PortalModule, ModalMessageComponent, SafePipe],
+    exports: [CustomIconComponent, PortalModule, ModalMessageComponent, SafePipe, LoaderComponent],
     providers : []
 })
 

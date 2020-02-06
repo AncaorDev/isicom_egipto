@@ -9,9 +9,13 @@ export class AppProvider {
     }
 
     load() {
-        console.log('load');
-        return new Promise((resolve, reject) => {
-            resolve(true);
-        })
+        return true;
+        // return new Promise((resolve, reject) => {
+        //     const queryString = window.location.search;
+        //     const urlParams = new URLSearchParams(queryString);
+        //     if(urlParams.has('key')) {
+        //         resolve(urlParams.get('key'))
+        //     }
+        // })
     }
 }

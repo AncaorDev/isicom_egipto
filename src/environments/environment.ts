@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  url_back : 'https://api-dot-pe-pacasmayo-intranet-gcp.appspot.com',
+  url_back : 'http://10.34.5.96:3000/',
   version_back : 'v1'
 };
 
