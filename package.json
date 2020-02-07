@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --port 4300",
-    "start_ip": "ng serve --open --host=10.34.5.127 --disableHostCheck",
+    "start_ip": "ng serve --open --host=10.34.5.127 --port 4300 --disableHostCheck",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",

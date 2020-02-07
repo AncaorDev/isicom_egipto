@@ -17,4 +17,8 @@ export class AppComponent {
 	ngOnInit() {
 
 	}
+
+	ngOnDestroy() {
+
+	}
 }

@@ -1,3 +1,5 @@
 export const environment = {
-  production: true
+  	production: true,
+	url_back : 'https://api-dot-back-prueba.appspot.com/',
+	version_back : 'v1'
 };

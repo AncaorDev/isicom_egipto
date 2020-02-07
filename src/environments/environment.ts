@@ -3,9 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false,
-  url_back : 'http://10.34.5.96:3000/',
-  version_back : 'v1'
+	production: false,
+	url_back : 'https://api-dot-back-prueba.appspot.com/',
+	version_back : 'v1'
 };
 
 /*
